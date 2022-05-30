@@ -1,0 +1,16 @@
+{
+  "name": "kafkatrial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:producer": "node ./producer/app.js",
+    "start:consumer": "node ./consumer/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "node-rdkafka": "^2.13.0"
+  }
+}
